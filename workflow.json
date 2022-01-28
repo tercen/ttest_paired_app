@@ -2,7 +2,7 @@
   "kind": "Workflow",
   "id": "33fb64086c3295748ed979a87b5d2e3f",
   "isDeleted": false,
-  "rev": "173-66b3f97630cd56dec8be167ffe119d49",
+  "rev": "176-e4346579223ed8a7ac28bfb582cac67f",
   "description": "Determines if there is a significant difference between the means of two groups of matched pairs",
   "name": "ttest_paired_app",
   "createdBy": "Martin",
@@ -17,7 +17,7 @@
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2022-01-17T17:38:12.502650Z"
+    "value": "2022-01-20T22:01:47.632177Z"
   },
   "urls": [
     {
@@ -86,15 +86,15 @@
     },
     {
       "kind": "Link",
-      "id": "a58eeb3b-5864-496e-9b0f-442c468a4557",
-      "inputId": "4d6be273-e53d-48ee-876a-35975ede03fa-i-0",
-      "outputId": "ff836f3b-0c3b-4a54-9d62-1883ac7b9f94-o-0"
-    },
-    {
-      "kind": "Link",
       "id": "09959743-3e0e-490d-88ab-c0e039e4442a",
       "inputId": "ff836f3b-0c3b-4a54-9d62-1883ac7b9f94-i-0",
       "outputId": "b19e4e3b-daaa-4b45-acf5-2c2f2f12cd46-o-0"
+    },
+    {
+      "kind": "Link",
+      "id": "dd861fac-725d-4468-b045-453b0e897657",
+      "inputId": "4d6be273-e53d-48ee-876a-35975ede03fa-i-0",
+      "outputId": "ff836f3b-0c3b-4a54-9d62-1883ac7b9f94-o-0"
     }
   ],
   "steps": [
@@ -128,8 +128,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 555.5050000000001,
-          "y": 116.5
+          "x": 574.5050000000001,
+          "y": 101.5
         }
       },
       "state": {
@@ -381,7 +381,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "e1fcd4c5-e4cf-4777-a4cd-0ab50e3a8456"
+        "id": "b3d1cfcc-1000-4414-824d-15f063578055"
       }
     },
     {
@@ -409,7 +409,7 @@
         "kind": "Rectangle",
         "extent": {
           "kind": "Point",
-          "x": 189.5833282470703,
+          "x": 189.58168029785156,
           "y": 55.0
         },
         "topLeft": {
@@ -677,7 +677,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "fdc8e101-8299-4f04-bd91-caeea7b87e6e"
+        "id": "401f3b86-9f50-47c1-8d7e-786518a26ede"
       }
     },
     {
@@ -705,7 +705,7 @@
         "kind": "Rectangle",
         "extent": {
           "kind": "Point",
-          "x": 185.18333435058594,
+          "x": 185.1576385498047,
           "y": 55.0
         },
         "topLeft": {
@@ -998,7 +998,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "9bd4a51a-931d-46e2-96a1-907c4e91a7e9"
+        "id": "f234131d-181a-4108-9127-1b63cb91db7e"
       }
     },
     {
@@ -1026,7 +1026,7 @@
         "kind": "Rectangle",
         "extent": {
           "kind": "Point",
-          "x": 92.9000015258789,
+          "x": 92.92588806152344,
           "y": 55.0
         },
         "topLeft": {
@@ -1058,7 +1058,7 @@
                   "properties": [],
                   "propertyValues": []
                 },
-                "pointSize": 4
+                "pointSize": 7
               },
               "colors": {
                 "kind": "Colors",
@@ -1070,20 +1070,25 @@
                   }
                 ],
                 "palette": {
-                  "kind": "JetPalette",
+                  "kind": "RampPalette",
                   "backcolor": 0,
                   "properties": [],
-                  "isUserDefined": false,
+                  "isUserDefined": true,
                   "doubleColorElements": [
                     {
                       "kind": "DoubleColorElement",
-                      "color": -1,
-                      "stringValue": "-0.4197640376702098"
+                      "color": 197125,
+                      "stringValue": "0"
                     },
                     {
                       "kind": "DoubleColorElement",
-                      "color": -1,
-                      "stringValue": "0.9595203755424357"
+                      "color": 9669532,
+                      "stringValue": "1.3"
+                    },
+                    {
+                      "kind": "DoubleColorElement",
+                      "color": 16711680,
+                      "stringValue": "2"
                     }
                   ]
                 }
@@ -1254,7 +1259,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "dc823142-fcbb-4042-acad-659173170fb1"
+        "id": "273f3102-ce47-4ada-9fcc-242773d524e0"
       }
     },
     {
@@ -1404,8 +1409,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 559.5050000000001,
-          "y": -73.5
+          "x": 563.5050000000001,
+          "y": -101.5
         }
       },
       "state": {
@@ -1451,8 +1456,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 559.4978463745119,
-          "y": 18.5
+          "x": 568.4978463745119,
+          "y": 1.5
         }
       },
       "state": {
@@ -1671,7 +1676,7 @@
   ],
   "offset": {
     "kind": "Point",
-    "x": 174.0,
-    "y": 173.0
+    "x": 33.0,
+    "y": 281.0
   }
 }
