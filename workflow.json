@@ -1,11 +1,11 @@
 {
   "kind": "Workflow",
-  "id": "33fb64086c3295748ed979a87b5d2e3f",
+  "id": "c845ceade32c4423bc616ff5ab455505",
   "isDeleted": false,
-  "rev": "176-e4346579223ed8a7ac28bfb582cac67f",
+  "rev": "5-98bf2222037b4e80a46ad359691f7146",
   "description": "Determines if there is a significant difference between the means of two groups of matched pairs",
-  "name": "ttest_paired_app",
-  "createdBy": "Martin",
+  "name": "TTest_paired_app",
+  "createdBy": "ginberg",
   "acl": {
     "kind": "Acl",
     "owner": "pamgene",
@@ -13,11 +13,11 @@
   },
   "createdDate": {
     "kind": "Date",
-    "value": "2021-09-21T12:52:43.005628Z"
+    "value": "2022-02-03T08:52:44.155793Z"
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2022-01-20T22:01:47.632177Z"
+    "value": "2022-02-11T12:56:42.896438Z"
   },
   "urls": [
     {
@@ -42,10 +42,10 @@
     "kind": "Url",
     "uri": "https://github.com/tercen/ttest_paired_app"
   },
-  "version": "0.0.1",
+  "version": "0.0.4",
   "authors": [],
   "isPublic": false,
-  "projectId": "33fb64086c3295748ed979a87b34b3b7",
+  "projectId": "c845ceade32c4423bc616ff5ab22f158",
   "folderId": "",
   "links": [
     {
@@ -305,7 +305,7 @@
             "kind": "OperatorRef",
             "name": "t-Test - Two Group",
             "version": "0.0.2",
-            "operatorId": "32686b39f178f64eef1bbd384424d285",
+            "operatorId": "c845ceade32c4423bc616ff5ab453499",
             "operatorKind": "ROperator",
             "propertyValues": [
               {
@@ -627,7 +627,7 @@
             "kind": "OperatorRef",
             "name": "Z-score scaling",
             "version": "0.0.2",
-            "operatorId": "32686b39f178f64eef1bbd384414ba17",
+            "operatorId": "c845ceade32c4423bc616ff5ab45478d",
             "operatorKind": "ROperator",
             "propertyValues": [
               {
@@ -1469,8 +1469,8 @@
       },
       "model": {
         "kind": "WizardStepModel",
-        "namespace": "ws0",
-        "description": "",
+        "namespace": "TTESTP",
+        "description": "Determines if there is a significant difference between the means of two groups of matched pairs.",
         "appDesignType": "ttestp.c07_super_2group_control_pair",
         "factors": [
           {
@@ -1535,7 +1535,7 @@
                 "type": "string"
               }
             ],
-            "isRequired": true
+            "isRequired": false
           },
           {
             "kind": "MappingFactor",
@@ -1635,7 +1635,7 @@
                 "type": "string"
               }
             ],
-            "isRequired": true
+            "isRequired": false
           },
           {
             "kind": "MappingFactor",
